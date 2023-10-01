@@ -6,7 +6,8 @@ This project implements the Eigenfaces method for face recognition using PCA (Pr
 ## Usage
 
 ### 1. Training and Testing
-The Eigenfaces method was trained with two different values of dimensionality (`d`): 9 and 30. Here are the results for accuracy on different sets:
+The Eigenfaces method was trained with two different values of dimensionality 9 and 30.
+Here are the results for accuracy on different sets:
 
 **Dimension: 9**
 
@@ -15,6 +16,8 @@ The Eigenfaces method was trained with two different values of dimensionality (`
 - Accuracy of Set 3: 83.33%
 - Accuracy of Set 4: 41.43%
 - Accuracy of Set 5: 24.21%
+
+<img src="9_1.png" alt="Set_1, d = 30" width="300" height="300"> <img src="30_2.png" alt="Set_2, d = 30" width="300" height="300"> <img src="30_3.png" alt="Set_3, d = 30" width="300" height="300"> <img src="30_4.png" alt="Set_4, d = 30" width="300" height="300"> <img src="30_5.png" alt="Set_5, d = 30" width="300" height="300">
 
 **Dimension: 30**
 
