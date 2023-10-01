@@ -35,6 +35,7 @@ As expected, the accuracy is 100% for Set 1 due to training with this set. Incre
 ### 2. Eigenfaces Visualization
 The top 9 eigenfaces obtained after training the Eigenfaces method on Set 1 were visualized. Each eigenvector captures unique patterns or characteristics in the face images. Eigenfaces are arranged in descending order of their significance.
 
+<img src="images/faces3.png" alt="Set_5, d = 30" width="300" height="300">
 
 
 ### 3. Image Reconstruction
