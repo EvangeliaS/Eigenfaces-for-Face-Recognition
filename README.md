@@ -17,7 +17,7 @@ Here are the results for accuracy on different sets:
 - Accuracy of Set 4: 41.43%
 - Accuracy of Set 5: 24.21%
 
-<img src="9_1.png" alt="Set_1, d = 30" width="300" height="300"> <img src="30_2.png" alt="Set_2, d = 30" width="300" height="300"> <img src="30_3.png" alt="Set_3, d = 30" width="300" height="300"> <img src="30_4.png" alt="Set_4, d = 30" width="300" height="300"> <img src="30_5.png" alt="Set_5, d = 30" width="300" height="300">
+<img src="images/9_1.png" alt="Set_1, d = 30" width="300" height="300"> <img src="images/9_2.png" alt="Set_2, d = 30" width="300" height="300"> <img src="images/9_3.png" alt="Set_3, d = 30" width="300" height="300"> <img src="images/9_4.png" alt="Set_4, d = 30" width="300" height="300"> <img src="images/9_5.png" alt="Set_5, d = 30" width="300" height="300">
 
 **Dimension: 30**
 
@@ -27,7 +27,7 @@ Here are the results for accuracy on different sets:
 - Accuracy of Set 4: 83.57%
 - Accuracy of Set 5: 50.53%
   
-<img src="30_1.png" alt="Set_1, d = 30" width="300" height="300"> <img src="30_2.png" alt="Set_2, d = 30" width="300" height="300"> <img src="30_3.png" alt="Set_3, d = 30" width="300" height="300"> <img src="30_4.png" alt="Set_4, d = 30" width="300" height="300"> <img src="30_5.png" alt="Set_5, d = 30" width="300" height="300">
+<img src="images/30_1.png" alt="Set_1, d = 30" width="300" height="300"> <img src="images/30_2.png" alt="Set_2, d = 30" width="300" height="300"> <img src="images/30_3.png" alt="Set_3, d = 30" width="300" height="300"> <img src="images/30_4.png" alt="Set_4, d = 30" width="300" height="300"> <img src="images/30_5.png" alt="Set_5, d = 30" width="300" height="300">
 
 
 As expected, the accuracy is 100% for Set 1 due to training with this set. Increasing the dimensionality (d = 30) improves accuracy for other sets as it captures more facial features.
