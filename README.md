@@ -23,13 +23,15 @@ The Eigenfaces method was trained with two different values of dimensionality (`
 - Accuracy of Set 3: 99.17%
 - Accuracy of Set 4: 83.57%
 - Accuracy of Set 5: 50.53%
+<img src="30_1.png" alt="Set_1, d = 30" width="400" height="400">
+<img src="30_2.png" alt="Set_2, d = 30" width="400" height="400">
+<img src="30_3.png" alt="Set_3, d = 30" width="400" height="400">
 
 As expected, the accuracy is 100% for Set 1 due to training with this set. Increasing the dimensionality (d = 30) improves accuracy for other sets as it captures more facial features.
 
 ### 2. Eigenfaces Visualization
 The top 9 eigenfaces obtained after training the Eigenfaces method on Set 1 were visualized. Each eigenvector captures unique patterns or characteristics in the face images. Eigenfaces are arranged in descending order of their significance.
 
-<img src="30_1.png" alt="Set_1, d = 30" width="400" height="400">
 
 
 ### 3. Image Reconstruction
