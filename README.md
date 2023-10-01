@@ -41,6 +41,9 @@ The top 9 eigenfaces obtained after training the Eigenfaces method on Set 1 were
 ### 3. Image Reconstruction
 Using the eigenfaces obtained from Set 1, random images from each of the 5 sets for both dimensions (9 and 30) were reconstructed. The original and reconstructed images were compared to assess the quality of reconstruction.
 
+<img src="images/4_9.png" width="300" height="300"> <img src="images/4_92.png" width="300" height="300"> <img src="images/4_3.png" width="300" height="300"> <img src="images/4_4.png" width="300" height="300"> <img src="images/4_5.png" width="300" height="300">
+
+
 ### 4. Singular Vectors vs. Eigenfaces
 The top 9 singular vectors obtained by applying Singular Value Decomposition (SVD) to the data matrix of Set 1 were displayed. Comparing these singular vectors with the eigenfaces, differences and similarities were noted, discussing their relevance to face recognition.
 
