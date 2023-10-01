@@ -24,7 +24,7 @@ The Eigenfaces method was trained with two different values of dimensionality (`
 - Accuracy of Set 4: 83.57%
 - Accuracy of Set 5: 50.53%
   
-<img src="30_1.png" alt="Set_1, d = 30" width="300" height="300"><img src="30_2.png" alt="Set_2, d = 30" width="300" height="300"><img src="30_3.png" alt="Set_3, d = 30" width="300" height="300">
+<img src="30_1.png" alt="Set_1, d = 30" width="200" height="200"> <img src="30_2.png" alt="Set_2, d = 30" width="200" height="200"> <img src="30_3.png" alt="Set_3, d = 30" width="200" height="200"> <img src="30_4.png" alt="Set_4, d = 30" width="200" height="200"> <img src="30_5.png" alt="Set_5, d = 30" width="200" height="200">
 
 
 As expected, the accuracy is 100% for Set 1 due to training with this set. Increasing the dimensionality (d = 30) improves accuracy for other sets as it captures more facial features.
