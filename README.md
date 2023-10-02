@@ -51,14 +51,10 @@ Using the eigenfaces obtained from Set 1, random images from each of the 5 sets 
 
 The quality of image reconstruction improved with higher dimensionality, allowing better preservation of facial details.
 
-## Singular Vectors vs. Eigenfaces
+## Eigenfaces vs Singular Vectors
 The top 9 singular vectors obtained by applying Singular Value Decomposition (SVD) to the data matrix of Set 1 were displayed.
 
-<img src="images/9_svd.png"  width="1200" height="200">
-<img src="images/9_1svd.png"  width="1200" height="200">
-
-
-## Conclusion
-In conclusion, the Eigenfaces method is effective for face recognition, with higher dimensionality providing better results. However, it may struggle with extreme lighting variations. Understanding eigenfaces and their relationship with singular vectors enhances our grasp of this technique.
-
-![Eigenfaces](path/to/your/eigenfaces.png)
+`Eigenfaces`
+<img src="images/9_svd.png"  width="1300" height="200">
+`Singular Vectors`
+<img src="images/9_1svd.png"  width="1300" height="200">
