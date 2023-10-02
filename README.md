@@ -6,11 +6,11 @@ This project implements the Eigenfaces method for face recognition using PCA (Pr
 ## Training and Testing
 From the Yale B face dataset, the following subsets are used:
 
-Set_1: person_01.png to person_07.png (i.e., the first 7 images of each individual)
-Set_2: person_08.png to person_19.png
-Set_3: person_20.png to person_31.png
-Set_4: person_32.png to person_45.png
-Set_5: person_46.png to person_64.png
+- Set_1: person_01.png to person_07.png (i.e., the first 7 images of each individual)
+- Set_2: person_08.png to person_19.png
+- Set_3: person_20.png to person_31.png
+- Set_4: person_32.png to person_45.png
+- Set_5: person_46.png to person_64.png
 
 The Eigenfaces method was trained with two different values of dimensionality 9 and 30.
 Here are the results for accuracy on different sets:
