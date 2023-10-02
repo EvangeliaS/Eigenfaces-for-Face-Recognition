@@ -4,6 +4,14 @@
 This project implements the Eigenfaces method for face recognition using PCA (Principal Component Analysis). Eigenfaces combine PCA for feature extraction and the nearest neighbor classifier for face recognition. The dataset used in this project is the Yale B dataset, containing images of 10 individuals under 64 different lighting conditions.
 
 ## Training and Testing
+From the Yale B face dataset, the following subsets are used:
+
+Set_1: person_01.png to person_07.png (i.e., the first 7 images of each individual)
+Set_2: person_08.png to person_19.png
+Set_3: person_20.png to person_31.png
+Set_4: person_32.png to person_45.png
+Set_5: person_46.png to person_64.png
+
 The Eigenfaces method was trained with two different values of dimensionality 9 and 30.
 Here are the results for accuracy on different sets:
 
@@ -44,7 +52,11 @@ Using the eigenfaces obtained from Set 1, random images from each of the 5 sets 
 The quality of image reconstruction improved with higher dimensionality, allowing better preservation of facial details.
 
 ## Singular Vectors vs. Eigenfaces
-The top 9 singular vectors obtained by applying Singular Value Decomposition (SVD) to the data matrix of Set 1 were displayed. Comparing these singular vectors with the eigenfaces, differences and similarities were noted, discussing their relevance to face recognition.
+The top 9 singular vectors obtained by applying Singular Value Decomposition (SVD) to the data matrix of Set 1 were displayed.
+
+<img src="images/faces3.png" alt="Set_5, d = 30" width="400" height="400">
+<img src="images/faces3.png" alt="Set_5, d = 30" width="400" height="400">
+
 
 ## Conclusion
 In conclusion, the Eigenfaces method is effective for face recognition, with higher dimensionality providing better results. However, it may struggle with extreme lighting variations. Understanding eigenfaces and their relationship with singular vectors enhances our grasp of this technique.
