@@ -54,7 +54,8 @@ The quality of image reconstruction improved with higher dimensionality, allowin
 ## Eigenfaces vs Singular Vectors
 The top 9 singular vectors obtained by applying Singular Value Decomposition (SVD) to the data matrix of Set 1 were displayed.
 
-`Eigenfaces`
+### Eigenfaces
 <img src="images/9_svd.png"  width="1300" height="200">
-`Singular Vectors`
+
+### Singular Vectors
 <img src="images/9_1svd.png"  width="1300" height="200">
