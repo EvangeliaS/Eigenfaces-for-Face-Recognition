@@ -3,7 +3,7 @@
 ## Introduction
 This project implements the Eigenfaces method for face recognition using PCA (Principal Component Analysis). Eigenfaces combine PCA for feature extraction and the nearest neighbor classifier for face recognition. The dataset used in this project is the Yale B dataset, containing images of 10 individuals under 64 different lighting conditions.
 
-The code along with a detailed analysis can be found in the [face_recognition.ipynb]() notebook.
+The code along with a detailed analysis can be found in the [face_recognition.ipynb](#face_recognition.ipynb) notebook.
 
 ## Training and Testing
 From the Yale B face dataset, the following subsets are used:
