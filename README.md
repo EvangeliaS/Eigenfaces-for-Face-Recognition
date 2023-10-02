@@ -47,7 +47,9 @@ The top 9 eigenfaces obtained after training the Eigenfaces method on Set 1 were
 ## Image Reconstruction
 Using the eigenfaces obtained from Set 1, random images from each of the 5 sets for both dimensions (9 and 30) were reconstructed. The original and reconstructed images were compared to assess the quality of reconstruction.
 
-<img src="images/4_9.png" alt = "Set 1" width="350" height="350"> [Set 2]<img src="images/4_92.png" width="350" height="350"> [Set 3]<img src="images/4_3.png" width="350" height="350"> [Set 4]<img src="images/4_4.png" width="350" height="350"> [Set 5]<img src="images/4_5.png" width="350" height="350">
+<img src="images/4_9.png" width="350" height="350">
+**Set 1**
+<img src="images/4_92.png" width="350" height="350"> [Set 3]<img src="images/4_3.png" width="350" height="350"> [Set 4]<img src="images/4_4.png" width="350" height="350"> [Set 5]<img src="images/4_5.png" width="350" height="350">
 
 The quality of image reconstruction improved with higher dimensionality, allowing better preservation of facial details.
 
